@@ -4,6 +4,7 @@
 # 3.27.0
 - [FIXED] Incorrect column name for generateThroughJoin [#6878](https://github.com/sequelize/sequelize/pull/6878)
 - [ADDED] Support condition objects in utility functions [#6685](https://github.com/sequelize/sequelize/pull/6685)
+- [FIXED] `bulkCreate` don't map fields to attributes properly [#4476](https://github.com/sequelize/sequelize/issues/4476)[#3908](https://github.com/sequelize/sequelize/issues/3908)[#4103](https://github.com/sequelize/sequelize/issues/4103)[#3764](https://github.com/sequelize/sequelize/issues/3764)[#3789](https://github.com/sequelize/sequelize/issues/3789)[#4600](https://github.com/sequelize/sequelize/issues/4600)
 
 # 3.26.0
 - [ADDED] Backport of mssql upsert [#6875](https://github.com/sequelize/sequelize/pull/6875)
